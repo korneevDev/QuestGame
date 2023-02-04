@@ -29,15 +29,14 @@ public class QuestGameLevel implements GameLevel {
     }
 
     @Override
-    public GameLevel makeMove(GameLevel level, String option){
+    public GameLevel makeMove(String option){
         GameLevel result = null;
-        if(this.getDescription().equals(level.getDescription())) {
-            for(GameLevel gameLevel : nextLevels)
-                if (option.equals(gameLevel.getReason())) {
-                    result = gameLevel;
-                    break;
-                }
-        }
+            if(nextLevels != null)
+                for(GameLevel gameLevel : nextLevels)
+                    if (option.equals(gameLevel.getReason())) {
+                        result = gameLevel;
+                        break;
+                    }
 
         return result;
 

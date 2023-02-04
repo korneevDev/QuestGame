@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    static GameLevel game = new QuestGameLevel("Старт", "Отправимся в путешествие?",
+    static GameLevel game = new QuestGameLevel("Заново", "Отправимся в путешествие?",
             List.of(new QuestGameLevel("Нет", "Вас сожрало, неудачник"),
                     new QuestGameLevel("Да", "Встретили камень - налево-смерть, направо-бедность, прямо-счастье",
                             List.of(new QuestGameLevel("Налево", "Ничего себе - торговец говна",
@@ -21,7 +21,7 @@ public class Main {
             String currentOption = scanner.nextLine();
             if(currentOption.equals("Выйти"))
                 break;
-            currentLevel = currentLevel.makeMove(currentLevel, currentOption);
+            currentLevel = currentLevel.makeMove(currentOption);
 
             System.out.println(currentLevel.getDescription());
 

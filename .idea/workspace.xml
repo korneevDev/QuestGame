@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09da1969-d238-46ab-9b09-34bae6aa4523" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/QuestGame/Main.java" afterDir="false" />
+    <list default="true" id="09da1969-d238-46ab-9b09-34bae6aa4523" name="Changes" comment="Worked version 1.0 without chain&#10;Minuses:&#10;can't move back, because object GameLevel always refreshes&#10;Unused check in method makeMove currentObject by itSelf&#10;Getter for reason - bad style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestGame/Game.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QuestGame/GameLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestGame/GameLevel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QuestGame/GameQuestion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestGame/QuestGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestGame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestGame/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QuestGame/QuestGameLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestGame/QuestGameLevel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QuestGameTest/QuestGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestGameTest/QuestGameTest.java" afterDir="false" />
     </list>
@@ -59,7 +57,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.QuestGameTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QuestGame.Main" />
       <module name="QuestGame" />
@@ -120,12 +118,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuestGameTest.test_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuestGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuestGameTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QuestGameTest" />
+      <option name="MAIN_CLASS_NAME" value="QuestGameTest.QuestGameTest" />
+      <option name="METHOD_NAME" value="test_success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.QuestGameTest" />
-        <item itemvalue="JUnit.QuestGameTest.test_bad_option" />
+        <item itemvalue="JUnit.QuestGameTest.test_success" />
         <item itemvalue="JUnit.QuestGameTest.test_death" />
+        <item itemvalue="JUnit.QuestGameTest.test_bad_option" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +153,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675011946693</updated>
     </task>
+    <task id="LOCAL-00001" summary="Worked version 1.0 without chain&#10;Minuses:&#10;can't move back, because object GameLevel always refreshes&#10;Unused check in method makeMove currentObject by itSelf&#10;Getter for reason - bad style">
+      <created>1675124602415</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675124602415</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,5 +200,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Worked version 1.0 without chain&#10;Minuses:&#10;can't move back, because object GameLevel always refreshes&#10;Unused check in method makeMove currentObject by itSelf&#10;Getter for reason - bad style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked version 1.0 without chain&#10;Minuses:&#10;can't move back, because object GameLevel always refreshes&#10;Unused check in method makeMove currentObject by itSelf&#10;Getter for reason - bad style" />
   </component>
 </project>
