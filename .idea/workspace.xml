@@ -1,24 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="09da1969-d238-46ab-9b09-34bae6aa4523" name="Changes" comment="" />
+    <list default="true" id="09da1969-d238-46ab-9b09-34bae6aa4523" name="Changes" comment="Worked version 1.0 without chain&#10;Minuses:&#10;can't move back, because object GameLevel always refreshes&#10;Unused check in method makeMove currentObject by itSelf&#10;Getter for reason - bad style">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestGame/GameLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestGame/GameLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestGame/GameQuestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestGame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestGame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestGame/QuestGameLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestGame/QuestGameLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestGameTest/QuestGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestGameTest/QuestGameTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2L0dTxMtQJHZk72eCE2QhkHCcuL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.QuestGameTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuestGame.Main" />
+      <module name="QuestGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuestGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuestGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuestGameTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QuestGameTest" />
+      <option name="MAIN_CLASS_NAME" value="QuestGameTest.QuestGameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestGameTest.test_bad_option" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuestGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuestGameTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QuestGameTest" />
+      <option name="MAIN_CLASS_NAME" value="QuestGameTest.QuestGameTest" />
+      <option name="METHOD_NAME" value="test_bad_option" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestGameTest.test_death" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuestGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuestGameTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QuestGameTest" />
+      <option name="MAIN_CLASS_NAME" value="QuestGameTest.QuestGameTest" />
+      <option name="METHOD_NAME" value="test_death" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestGameTest.test_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuestGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuestGameTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QuestGameTest" />
+      <option name="MAIN_CLASS_NAME" value="QuestGameTest.QuestGameTest" />
+      <option name="METHOD_NAME" value="test_success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.QuestGameTest" />
+        <item itemvalue="JUnit.QuestGameTest.test_success" />
+        <item itemvalue="JUnit.QuestGameTest.test_death" />
+        <item itemvalue="JUnit.QuestGameTest.test_bad_option" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,6 +153,56 @@
       <option name="presentableId" value="Default" />
       <updated>1675011946693</updated>
     </task>
+    <task id="LOCAL-00001" summary="Worked version 1.0 without chain&#10;Minuses:&#10;can't move back, because object GameLevel always refreshes&#10;Unused check in method makeMove currentObject by itSelf&#10;Getter for reason - bad style">
+      <created>1675124602415</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675124602415</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/javaConstructor" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="feature/javaConstructor" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Worked version 1.0 without chain&#10;Minuses:&#10;can't move back, because object GameLevel always refreshes&#10;Unused check in method makeMove currentObject by itSelf&#10;Getter for reason - bad style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked version 1.0 without chain&#10;Minuses:&#10;can't move back, because object GameLevel always refreshes&#10;Unused check in method makeMove currentObject by itSelf&#10;Getter for reason - bad style" />
   </component>
 </project>
